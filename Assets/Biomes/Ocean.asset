@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886a0857396cb8647a12a30014c692cb, type: 3}
+  m_Name: Ocean
+  m_EditorClassIdentifier: 
+  biomeName: Ocean
+  tempCenter: 0.5
+  moistCenter: 1
+  falloff: 0.3
+  heightBias: -2
+  terrain:
+    baseHeight: 50
+    amplitude: 2
+    frequency: 0.005
+    octaves: 2
+    ridged: 0
+    warpStrength: 1
+    warpFrequency: 0.01
+  surfaceMode: 1
+  snowLineY: 999
+  beachBand: 1
+  surface: 7
+  subsurface:
+  - block: 7
+    thickness: 4

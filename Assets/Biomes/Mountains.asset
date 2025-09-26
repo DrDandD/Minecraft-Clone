@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886a0857396cb8647a12a30014c692cb, type: 3}
+  m_Name: Mountains
+  m_EditorClassIdentifier: 
+  biomeName: Mountains
+  spawnWeight: 0.5
+  tempCenter: 0.271
+  moistCenter: 0.472
+  falloff: 0.6
+  heightBias: 40
+  terrain:
+    baseHeight: 100
+    amplitude: 60
+    frequency: 0.03
+    octaves: 5
+    ridged: 0.8
+    warpStrength: 4
+    warpFrequency: 0.04
+  surfaceMode: 2
+  snowLineY: 80
+  beachBand: 1
+  surface: 2
+  subsurface:
+  - block: 2
+    thickness: 5
